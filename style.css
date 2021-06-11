@@ -1,0 +1,52 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .words{
+    width: 600px;
+    height: 40px;
+    border: 1px solid black;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 30px;
+    display: flex;
+    word-wrap: break-word;
+    justify-content: center;
+}
+
+.container .words div{
+    padding: 0 5px;
+    background-color: greenyellow;
+}
+
+.container .inputs{
+    display: flex;
+    width: 600px;
+    height: 50px;
+}
+
+.container .inputs input{
+    font-size: 30px;
+    padding: 6px;
+    width: 520px;
+}
+
+.container .inputs button{
+    width: 70px;
+}
+
+.container .inputs .time{
+    font-size: 30px;
+}
