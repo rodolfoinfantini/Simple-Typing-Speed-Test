@@ -25,7 +25,7 @@ function addWord(word){
 }
 
 btnStart.addEventListener('click', function(){
-    time = 5
+    time = 60
     correctWords = 0
     wrongWords = 0
     count = 0
